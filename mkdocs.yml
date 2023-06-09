@@ -1,0 +1,88 @@
+site_name: REST API Hands-on lab
+repo_url: https://github.com/jcarlosvale/lab-rest-api
+repo_name: jcarlosvale
+extra_css:
+  - stylesheets/extra.css
+theme:
+  name: material
+  language: pt-BR
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    # Palette toggle for light mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+  features:
+    - content.tabs.link
+    - content.code.copy
+extra:
+  social:
+    - icon: "fontawesome/brands/github"
+      link: "https://github.com/jcarlosvale"
+    - icon: "fontawesome/brands/youtube"
+      link: "https://www.youtube.com/@joaocsv"
+    - icon: "fontawesome/brands/linkedin"
+      link: "https://linkedin.com/in/joaocarlosvale"
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tabbed:
+      alternate_style: true   
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - md_in_html
+nav:
+  - "🏠 Home": "index.md"
+#  - "1. Setup":
+#      - "Local environment": "setup/local-environment.md"
+#      - "Project": "setup/project.md"
+#  - "2. RestAssured Basics":
+#      - "Lab 1": "rest-assured-basics/lab1.md"
+#      - "Lab 2": "rest-assured-basics/lab2.md"
+#      - "Lab 3": "rest-assured-basics/lab3.md"
+#      - "Lab 4": "rest-assured-basics/lab4.md"
+#  - "3. Object Mapping":
+#      - "Lab 1": "object-mapping/lab1.md"
+#      - "Lab 2": "object-mapping/lab2.md"
+#      - "Lab 3": "object-mapping/lab3.md"
+#  - "4. Logging and Filters":
+#      - "Lab 1": "logging/lab1.md"
+#  - "5. Request and Response Specs":
+#      - "Lab 1": "req-resp-specification/lab1.md"
+#  - "6. OpenAPI Generator":
+#      - "Lab 1": "open-api-generator/lab1.md"
+#      - "Lab 2": "open-api-generator/lab2.md"
+#  - "7. Better architecture":
+#      - "Lab 1": "better-architecture/lab1.md"
+#      - "Lab 2": "better-architecture/lab2.md"
+#  - "8. Data":
+#      - "Lab 1": "data/lab1.md"
+#  - "9. Extras":
+#      - "Explanation": "extras/index.md"
+#      - "Lab 1": "extras/lab1.md"
+#      - "Lab 2": "extras/lab2.md"
+copyright: |
+  &copy; 2023 <a href=https://linkedin.com/in/joaocarlosvale target="_blank" rel="noopener"> Joao Vale </a>
