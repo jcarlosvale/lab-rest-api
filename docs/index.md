@@ -5,7 +5,7 @@ Olá !!!
 Conclua todos os laboratórios e aprenda a criar _web services_ REST  em *Java* com *Spring* e *Spring Boot*.
 
 === "Pré requisitos"
-:material-language-java: [JAVA](https://www.oracle.com/pt/java/technologies/downloads/)<br/>
+:material-language-java: [Java](https://www.oracle.com/pt/java/technologies/downloads/)<br/>
 :simple-intellijidea: [IntelliJ](https://www.oracle.com/pt/java/technologies/downloads/)<br/>
 :simple-apachemaven: [Maven](https://www.oracle.com/pt/java/technologies/downloads/)<br/>
 :simple-git: [Git](https://www.oracle.com/pt/java/technologies/downloads/)
